@@ -1,0 +1,27 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<!-- filename: bugtest.xml -->
+<component>
+	<name>org.freedesktop.IBus.Bugtest</name>
+	<description>Bugtest Component</description>
+	<exec>${libexecdir}/ibus-engine-bugtest --ibus</exec>
+	<version>@VERSION@</version>
+	<author>Eberhard Beilharz &lt;eb1@sil.org&gt;</author>
+	<license>GPL</license>
+	<homepage>https://github.com/ermshiperete/ibus-bugtest</homepage>
+	<textdomain>ibus-bugtest</textdomain>
+
+	<engines>
+		<engine>
+			<name>bugtest</name>
+			<language>us</language>
+			<license>GPL</license>
+			<author>Eberhard Beilharz &lt;eb1@sil.org&gt;</author>
+			<icon>${pkgdatadir}/icons/ibus-bugtest.svg</icon>
+			<layout>us</layout>
+			<longname>Bugtest</longname>
+			<description>Bugtest Input Method</description>
+			<rank>0</rank>
+		</engine>
+	</engines>
+
+</component>
